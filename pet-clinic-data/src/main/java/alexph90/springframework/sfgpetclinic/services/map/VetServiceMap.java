@@ -2,9 +2,11 @@ package alexph90.springframework.sfgpetclinic.services.map;
 
 import alexph90.springframework.sfgpetclinic.model.Vet;
 import alexph90.springframework.sfgpetclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
